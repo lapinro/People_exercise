@@ -1,0 +1,7 @@
+C:\Users\Roosa\source\repos\People_Exercise\People_Exercise\bin\Debug\People_Exercise.exe.config
+C:\Users\Roosa\source\repos\People_Exercise\People_Exercise\bin\Debug\People_Exercise.exe
+C:\Users\Roosa\source\repos\People_Exercise\People_Exercise\bin\Debug\People_Exercise.pdb
+C:\Users\Roosa\source\repos\People_Exercise\People_Exercise\obj\Debug\People_Exercise.csproj.AssemblyReference.cache
+C:\Users\Roosa\source\repos\People_Exercise\People_Exercise\obj\Debug\People_Exercise.csproj.CoreCompileInputs.cache
+C:\Users\Roosa\source\repos\People_Exercise\People_Exercise\obj\Debug\People_Exercise.exe
+C:\Users\Roosa\source\repos\People_Exercise\People_Exercise\obj\Debug\People_Exercise.pdb

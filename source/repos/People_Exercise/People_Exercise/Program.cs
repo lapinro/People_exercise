@@ -13,8 +13,8 @@ namespace People_Exercise
 
             Person person1 = new Person("Nella", "Virtanen", "nella.virtanen@gmail.com", new DateTime(1997, 10, 10));
             Person person2 = new Person("Eki", "Ojala", "eki@gmail.com", new DateTime(1986, 12, 30));
-            Person person3 = new Person("Elviira", "Aho", "ahoelviira@hotmail.com", new DateTime(1992, 1, 8));
-            Person person4 = new Person("Veikka", "Virtanen", "veikka.virtanen@gmail.com", new DateTime(1989, 7, 23));
+            Person person3 = new Person("Elviira", "Aho", "ahoelviira@hotmail.com", new DateTime(1981, 1, 8));
+            Person person4 = new Person("Veikka", "Virtanen", "veikka.virtanen@gmail.com", new DateTime(1982, 7, 23));
             Person person5 = new Person("Risto-Pekka", "Järvinen", "jarvinen@hotmail.com", new DateTime(1978, 12, 2));
 
             Dictionary<int, string> ages = new Dictionary<int, string>();
@@ -29,9 +29,9 @@ namespace People_Exercise
             Console.WriteLine("Keskiarvo {0}", aveINT);
             var result = ages.Where(a => a.Key > aveINT);
 
-            foreach (var item in res)
+            foreach (var item in result)
             {
-                Console.WriteLine(item);
+                Console.WriteLine("Keskiarvon yli: {0}", item);
             }
 
             Console.ReadLine();
@@ -57,6 +57,13 @@ namespace People_Exercise
             Name = name;
             LastName = lastName;
             Email = email;
+        }
+
+        public Person(string name, string lastName, DateTime birthday)
+        {
+            Name = name;
+            LastName = lastName;
+            Birthday = birthday;
         }
 
         public int Age(DateTime birthday)
